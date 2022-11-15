@@ -4,6 +4,12 @@ body {
 }
 
 /* HEADER */
+.hippocampus-header-wrapper {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hippocampus-header {
   display: flex;
   justify-content: space-between;
