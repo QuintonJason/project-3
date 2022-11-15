@@ -4,7 +4,9 @@ body {
 }
 
 /* HEADER */
-.hippocampus-header-wrapper {
+.hippocampus-header-wrapper,
+.hippocampus-main-content-wrapper,
+.hippocampus-footer-wrapper {
   max-width: 800px;
   margin-left: auto;
   margin-right: auto;
