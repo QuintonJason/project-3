@@ -1,1 +1,30 @@
 /* Place CSS styles here */
+body {
+  background-color: lightgray;
+}
+
+/* HEADER */
+.hippocampus-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hippocampus-logo {
+  width: 130px;
+}
+
+.hippocampus-main-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.hippocampus-main-nav a {
+  text-decoration: none;
+  color: #e20df0;
+  transition: all ease .25s;
+}
+
+.hippocampus-main-nav a:hover {
+  color: black;
+}
