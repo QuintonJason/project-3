@@ -1,4 +1,18 @@
 /* Place CSS styles here */
+/* this class is needed to visually hide text from sighted users */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  white-space: nowrap;
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  border: 0;
+}
+
 body {
   background-color: lightgray;
 }
@@ -36,3 +50,8 @@ body {
 .hippocampus-main-nav a:hover {
   color: black;
 }
+
+.hippocampus-social-link-image {
+  width: 32px;
+}
+
