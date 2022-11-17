@@ -51,7 +51,25 @@ body {
   color: black;
 }
 
+.hippocampus-social-link:hover {
+  border: 1px solid black;
+}
+
+.hippocampus-social-links {
+  display: flex;
+  gap: 16px;
+}
+
 .hippocampus-social-link-image {
   width: 32px;
 }
 
+.hippocampus-footer-wrapper {
+  padding-top: 32px;
+  border-top: 1px solid black;
+}
+
+.hippocampus-footer {
+  display: flex;
+  justify-content: space-between;
+}
