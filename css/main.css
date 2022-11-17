@@ -93,6 +93,12 @@ img {
   grid-gap: 4px;
 }
 
+@media (max-width: 999px) {
+  .hippocampus-team-list {
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  }
+}
+
 .hippocampus-team-list a {
   display: flex;
   flex-direction: column;
