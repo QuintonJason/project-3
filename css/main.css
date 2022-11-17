@@ -17,6 +17,11 @@ body {
   background-color: lightgray;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 /* HEADER */
 .hippocampus-header-wrapper,
 .hippocampus-main-content-wrapper,
@@ -62,6 +67,30 @@ body {
 
 .hippocampus-social-link-image {
   width: 32px;
+}
+
+.hippocampus-team-list {
+  padding-left: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  grid-gap: 4px;
+}
+
+.hippocampus-team-list a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: grayscale(.5);
+  text-decoration: none;
+}
+
+.hippocampus-team-list a:hover {
+  filter: grayscale(0);
+}
+
+.hippocampus-team-list p {
+  font-size: 20px;
 }
 
 .hippocampus-footer-wrapper {
