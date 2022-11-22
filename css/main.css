@@ -35,6 +35,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 32px;
 }
 
 .hippocampus-logo {
@@ -120,7 +121,6 @@ img {
   padding: 20px;
   border-radius: 20px;
   background: white;
-  margin-bottom: 32px;
 }
 
 .hippocampus-feature-content {
@@ -140,6 +140,7 @@ img {
 .hippocampus-footer-wrapper {
   padding-top: 32px;
   border-top: 1px solid black;
+  margin-top: 32px;
 }
 
 .hippocampus-footer {
