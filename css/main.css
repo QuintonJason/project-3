@@ -115,6 +115,14 @@ img {
   font-size: 20px;
 }
 
+.hippocampus-contact-form {
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  background: white;
+  margin-bottom: 32px;
+}
+
 .hippocampus-footer-wrapper {
   padding-top: 32px;
   border-top: 1px solid black;
