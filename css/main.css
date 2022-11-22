@@ -123,6 +123,20 @@ img {
   margin-bottom: 32px;
 }
 
+.hippocampus-feature-content {
+  display: flex;
+  gap: 40px;
+}
+
+.hippocampus-feature-image {
+  max-width: 250px;
+}
+
+.hippocampus-feature-images {
+  display: flex;
+  gap: 12px;
+}
+
 .hippocampus-footer-wrapper {
   padding-top: 32px;
   border-top: 1px solid black;
